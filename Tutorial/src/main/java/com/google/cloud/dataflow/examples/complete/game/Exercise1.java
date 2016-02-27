@@ -92,7 +92,7 @@ public class Exercise1 {
             .withOutputType(new TypeDescriptor<KV<String, Integer>>() {}))
         // Sum is a family of PTransforms for computing the sum of elements in a PCollection.
         // Select the appropriate method to compute the sum over each key.
-        .apply(Sum.integersPerKey());
+        .apply(Sum.<String>integersPerKey());
       // [END EXERCISE 1]:
     }
   }
