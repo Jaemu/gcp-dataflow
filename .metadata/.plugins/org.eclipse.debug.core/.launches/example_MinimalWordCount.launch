@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.google.cloud.dataflow.DataflowPipeline">
+<mapAttribute key="com.google.cloud.dataflow.eclipse.ALL_ARGUMENT_VALUES">
+<mapEntry key="apiRootUrl" value=""/>
+<mapEntry key="appName" value=""/>
+<mapEntry key="authorizationServerEncodedUrl" value=""/>
+<mapEntry key="autoscalingAlgorithm" value=""/>
+<mapEntry key="credentialDir" value=""/>
+<mapEntry key="credentialFactoryClass" value=""/>
+<mapEntry key="credentialId" value=""/>
+<mapEntry key="dataflowClient" value=""/>
+<mapEntry key="dataflowEndpoint" value=""/>
+<mapEntry key="dataflowJobFile" value=""/>
+<mapEntry key="defaultWorkerLogLevel" value=""/>
+<mapEntry key="directPipelineRunnerRandomSeed" value=""/>
+<mapEntry key="diskSizeGb" value=""/>
+<mapEntry key="enableCloudDebugger" value=""/>
+<mapEntry key="enableProfilingAgent" value=""/>
+<mapEntry key="executorService" value=""/>
+<mapEntry key="experiments" value=""/>
+<mapEntry key="filesToStage" value=""/>
+<mapEntry key="gcpCredential" value=""/>
+<mapEntry key="gcsEndpoint" value=""/>
+<mapEntry key="gcsUploadBufferSizeBytes" value=""/>
+<mapEntry key="gcsUtil" value=""/>
+<mapEntry key="googleApiTrace" value=""/>
+<mapEntry key="jobName" value=""/>
+<mapEntry key="maxNumWorkers" value=""/>
+<mapEntry key="network" value=""/>
+<mapEntry key="numWorkers" value=""/>
+<mapEntry key="numberOfWorkerHarnessThreads" value=""/>
+<mapEntry key="overrideWindmillBinary" value=""/>
+<mapEntry key="pathValidator" value=""/>
+<mapEntry key="pathValidatorClass" value=""/>
+<mapEntry key="profilingAgentConfiguration" value=""/>
+<mapEntry key="project" value="dataflow-workshop"/>
+<mapEntry key="pubsubRootUrl" value=""/>
+<mapEntry key="secretsFile" value=""/>
+<mapEntry key="serviceAccountKeyfile" value=""/>
+<mapEntry key="serviceAccountName" value=""/>
+<mapEntry key="stableUniqueNames" value=""/>
+<mapEntry key="stager" value=""/>
+<mapEntry key="stagerClass" value=""/>
+<mapEntry key="stagingLocation" value="gs://jill-dataflow"/>
+<mapEntry key="streaming" value=""/>
+<mapEntry key="teardownPolicy" value=""/>
+<mapEntry key="tempDatasetId" value=""/>
+<mapEntry key="tempLocation" value=""/>
+<mapEntry key="testEncodability" value=""/>
+<mapEntry key="testSerializability" value=""/>
+<mapEntry key="testUnorderedness" value=""/>
+<mapEntry key="tokenServerUrl" value=""/>
+<mapEntry key="transformNameMapping" value=""/>
+<mapEntry key="update" value=""/>
+<mapEntry key="workerDiskType" value=""/>
+<mapEntry key="workerLogLevelOverrides" value=""/>
+<mapEntry key="workerMachineType" value=""/>
+<mapEntry key="zone" value=""/>
+</mapAttribute>
+<stringAttribute key="com.google.cloud.dataflow.eclipse.RUNNER_ARGUMENT" value="DirectPipelineRunner"/>
+<stringAttribute key="com.google.cloud.dataflow.eclipse.USER_OPTIONS_CLASS_NAME" value=""/>
+<booleanAttribute key="com.google.cloud.dataflow.eclipse.USE_DEFAULT_LAUNCH_OPTIONS" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/example/src/main/java/example/MinimalWordCount.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="example.MinimalWordCount"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="example"/>
+</launchConfiguration>

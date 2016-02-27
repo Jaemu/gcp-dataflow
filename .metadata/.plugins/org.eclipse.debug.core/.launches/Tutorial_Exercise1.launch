@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.google.cloud.dataflow.DataflowPipeline">
+<mapAttribute key="com.google.cloud.dataflow.eclipse.ALL_ARGUMENT_VALUES">
+<mapEntry key="appName" value=""/>
+<mapEntry key="authorizationServerEncodedUrl" value=""/>
+<mapEntry key="credentialDir" value=""/>
+<mapEntry key="credentialFactoryClass" value=""/>
+<mapEntry key="credentialId" value=""/>
+<mapEntry key="directPipelineRunnerRandomSeed" value=""/>
+<mapEntry key="executorService" value=""/>
+<mapEntry key="gcpCredential" value=""/>
+<mapEntry key="gcsEndpoint" value=""/>
+<mapEntry key="gcsUploadBufferSizeBytes" value=""/>
+<mapEntry key="gcsUtil" value=""/>
+<mapEntry key="googleApiTrace" value=""/>
+<mapEntry key="secretsFile" value=""/>
+<mapEntry key="serviceAccountKeyfile" value=""/>
+<mapEntry key="serviceAccountName" value=""/>
+<mapEntry key="stableUniqueNames" value=""/>
+<mapEntry key="streaming" value=""/>
+<mapEntry key="tempDatasetId" value=""/>
+<mapEntry key="testEncodability" value=""/>
+<mapEntry key="testSerializability" value=""/>
+<mapEntry key="testUnorderedness" value=""/>
+<mapEntry key="tokenServerUrl" value=""/>
+</mapAttribute>
+<stringAttribute key="com.google.cloud.dataflow.eclipse.RUNNER_ARGUMENT" value="DirectPipelineRunner"/>
+<stringAttribute key="com.google.cloud.dataflow.eclipse.USER_OPTIONS_CLASS_NAME" value=""/>
+<booleanAttribute key="com.google.cloud.dataflow.eclipse.USE_DEFAULT_LAUNCH_OPTIONS" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Tutorial/src/main/java/com/google/cloud/dataflow/examples/complete/game/Exercise1.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.google.cloud.dataflow.examples.complete.game.Exercise1"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--dataset=tutorial"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Tutorial"/>
+</launchConfiguration>
